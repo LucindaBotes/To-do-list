@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "cursive";
+  src: url("../fonts/Autumn\ in\ November.ttf");
+}
+
 html {
   background-color: #9deff1;
   background-image: -webkit-linear-gradient(65deg, #448ae6 50%, #9deff1 50%);
@@ -8,6 +13,8 @@ html {
 h1 {
   color: #fff;
   padding: 10px;
+  font-family: "cursive";
+  font-weight: 300;
 }
 
 .box {
@@ -62,6 +69,18 @@ button {
   border-radius: 50%;
   border-color: transparent;
   background-color: #448ae6;
+  color: #fff;
+  font-size: 30px;
+  padding-bottom: 6px;
+  border-width: 0;
+}
+
+.delete {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #9deff1;
   color: #fff;
   font-size: 30px;
   padding-bottom: 6px;
